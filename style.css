@@ -1,0 +1,98 @@
+body{
+    background-image: url('border.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    color:#334760;
+    font-family:Arial;
+    font-size:24pt;
+    line-height:30pt;
+}
+
+img{
+    width:100%;
+}
+
+/* Text Types */
+
+div.title{
+    font-size: 52pt;
+    line-height:55pt;
+    font-weight: bold;
+    
+
+}
+div.subtitle{
+    font-size: 35pt;
+    line-height: 37pt;
+    font-weight:light;
+}
+div.whitetext{
+    color:white
+}
+
+/* Background colours */
+
+div.bluebg{
+    background-color: #334760;
+}
+
+div.bgred{
+    background-color:#a04041
+}
+
+/* Margins */
+
+div.mb{
+    margin-bottom:40pt;
+}
+div.ml{
+    margin-left:50pt;
+}
+div.mlauto{
+    margin-left:auto;
+}
+div.mr{
+    margin-right:50pt;
+}
+div.mrauto{
+    margin-right:auto;
+}
+div.mt{
+    margin-top:60pt;
+}
+div.mcenter{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* padding */
+div.pad{
+    padding:10pt
+}
+div.padextra{
+    padding:30pt
+}
+
+/* Widths */
+
+div.width50 {
+    width:50%;
+}
+
+div.width25 {
+    width:25%;
+}
+
+div.width75 {
+    width:75%;
+}
+div.widthauto{
+    width:fit-content;
+}
+
+/* Layout */
+
+div.container{
+    display:flex;
+    flex-wrap:wrap;
+}
